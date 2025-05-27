@@ -1,7 +1,7 @@
 import requests
 import telebot
 
-BOT_TOKEN = '7685990670:AAEtfFoetE7Fx37imh7AzHkak-attO6eGuc'
+BOT_TOKEN = '7904322665:AAHQZfmH_5YGwGg8djvEc2IJqYaZgPILShM'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start'])
@@ -9,7 +9,7 @@ def start_cmd(msg):
     bot.reply_to(msg, """🔥 *WELCOME TO SPAM ZONE*  
 Type: `/spam UID` to send ʀᴀᴘɪᴅ ꜱᴘᴀᴍ ʀᴇǫᴜᴇꜱᴛꜱ!
 
-⚡ POWERED BY: *@TEAM AFX*  
+⚡ POWERED BY: *@TEAMAFX*  
 👑 Created by: *@TEAM AFX OWNER*""", parse_mode="Markdown")
 
 @bot.message_handler(commands=['spam'])
